@@ -123,16 +123,33 @@ h3 {
 	padding: 3% 2%;
 }
 
+/* CTA Section */
+
 #cta {
 	background-color: #ff4c68;
 	text-align: center;
-	padding: 3% 25% 5%;
+	padding: 7% 15%;
+	/* color: #fff; */
 }
 
 #cta > h3 {
 	color: #fff;
-	font-size: 2.5rem;
-	margin-bottom: 2.5rem;
+	font-size: 3.5rem;
+	line-height: 1.5;
+	font-weight: 800;
+	/* margin-bottom: 2.5rem; */
+}
+
+/* Footer Section */
+
+#footer {
+	padding: 7% 15%;
+	text-align: center;
+	background-attachment: #fff;
+}
+
+.social-icon {
+	padding: 20px 10px;
 }
 
 @media (max-width: 991px) {
